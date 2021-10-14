@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>lsp-codemirror</title>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+		<style>
+			.CodeMirror-lsp-tooltip *, .CodeMirror-lsp-context * {
+				font-family: 'Inter', sans-serif;
+			}
+			.html, .css, .js {
+				height: 200px;
+				overflow: auto;
+				border-bottom: 1px solid #ccc;
+				max-width: 90vw;
+			}
+			.ts {
+				height: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ts"></div>
+
+		<div class="diagnostics"></div>
+
+		<div class="logging"></div>
+
+		<div class="completion"></div>
+
+		<div class="error"></div>
+
+		<script src="index.ts"></script>
+	</body>
+</html>
